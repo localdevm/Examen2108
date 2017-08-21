@@ -132,16 +132,16 @@
         "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wallet.xml",
+        "source": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\src\\main\\res\\layout\\wallet.xml"
+    },
+    {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wallet.xml",
-        "source": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\src\\main\\res\\layout\\wallet.xml"
     },
     {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",

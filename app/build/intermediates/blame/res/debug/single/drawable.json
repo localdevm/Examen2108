@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dash.png",
         "source": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\src\\main\\res\\drawable\\dash.png"
     },
     {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bytecoin.png",
         "source": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\src\\main\\res\\drawable\\bytecoin.png"
+    },
+    {
+        "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\LaptopMaarten\\.android\\build-cache\\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\LaptopMaarten\\ExamenMaarten2108\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
