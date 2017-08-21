@@ -74,7 +74,8 @@
         android:layout_above="@+id/btn2min"
         android:layout_alignLeft="@+id/btn1min"
         android:layout_alignStart="@+id/btn1min"
-        android:layout_marginBottom="23dp" />
+        android:layout_marginBottom="23dp"
+        android:gravity="center_horizontal"/>
     <TextView
         android:layout_width="180px"
         android:layout_height="wrap_content"
@@ -83,7 +84,8 @@
         android:layout_alignBaseline="@+id/txtgetal1"
         android:layout_alignBottom="@+id/txtgetal1"
         android:layout_alignLeft="@+id/btn2min"
-        android:layout_alignStart="@+id/btn2min" />
+        android:layout_alignStart="@+id/btn2min"
+        android:gravity="center_horizontal"/>
     <TextView
         android:layout_width="180px"
         android:layout_height="wrap_content"
@@ -92,7 +94,8 @@
         android:layout_alignBaseline="@+id/txtgetal2"
         android:layout_alignBottom="@+id/txtgetal2"
         android:layout_alignRight="@+id/btn3min"
-        android:layout_alignEnd="@+id/btn3min" />
+        android:layout_alignEnd="@+id/btn3min"
+        android:gravity="center_horizontal" />
 
     <Button
         android:layout_width="match_parent"

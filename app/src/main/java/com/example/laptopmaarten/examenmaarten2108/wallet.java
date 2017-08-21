@@ -1,6 +1,7 @@
 package com.example.laptopmaarten.examenmaarten2108;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -36,10 +37,13 @@ public class wallet extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.wallet);
-        SharedPreferences preferences = getSharedPreferences("my_preferences", MODE_PRIVATE);
-        TextView pogingen = (TextView) findViewById(R.id.txtgetal2);
+
+        TextView pogingen = (TextView) findViewById(R.id.txtpogingen);
         ListView mainlist = (ListView) findViewById(R.id.listMain);
         Context context = this;
+        Intent n = getIntent();
+        String foutpog = n.getStringExtra("key");
+        pogingen.setText("Er waren " + foutpog + " aantal foute pogingen");
 
         naamLijst = new String[12];
         naamLijst[0] = "zcash";

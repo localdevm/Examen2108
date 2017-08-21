@@ -14,14 +14,14 @@ import android.widget.TextView;
 
 class CustomList extends ArrayAdapter<String> {
     private final Activity context;
-    private final String[] pokemonarray;
+    private final String[] valuearray;
     private final String[] naamarray;
     private final Integer[] images;
 
-    public CustomList(Activity context, String[] pokemonarray, Integer[] images, String[] naamarray){
-        super(context, R.layout.list_single, pokemonarray);
+    public CustomList(Activity context, String[] valuearray, Integer[] images, String[] naamarray){
+        super(context, R.layout.list_single, valuearray);
         this.context = context;
-        this.pokemonarray = pokemonarray;
+        this.valuearray = valuearray;
         this.naamarray = naamarray;
         this.images = images;
     }
@@ -35,7 +35,7 @@ class CustomList extends ArrayAdapter<String> {
         TextView txtNaam = (TextView) rowView.findViewById(R.id.txtnaam);
 
         ImageView imageView = (ImageView) rowView.findViewById(R.id.img);
-        txtTitle.setText(pokemonarray[position]);
+        txtTitle.setText(valuearray[position]);
         txtNaam.setText(naamarray[position]);
         imageView.setImageResource(images[position]);
         return rowView;

@@ -1,6 +1,7 @@
 package com.example.laptopmaarten.examenmaarten2108;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,7 +18,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        SharedPreferences preferences = getSharedPreferences("key", MODE_PRIVATE);
+        //Uitbreding storage werkt niet helemaal
+        /*SharedPreferences.Editor editor = preferences.edit();
+        editor.putInt(getString(R.string.saved_fout), newSavedFout);
+        editor.commit();
+
+        int def = getResources().getInteger(R.string_.saved_fout_default);
+        int fout = preferences.getInt(getString(R.string.saved_fout), def);
+        */
         final Intent wallet = new Intent(getApplicationContext(), wallet.class);
+
         final TextView txtGetal1 = (TextView) findViewById(R.id.txtgetal1);
         final TextView txtGetal2 = (TextView) findViewById(R.id.txtgetal2);
         final TextView txtGetal3 = (TextView) findViewById(R.id.txtgetal3);
@@ -94,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 if ((getal1 == 8)&&(getal2 == 1)&&(getal3 == 8)){
                     Toast toast = Toast.makeText(getApplicationContext(),"Code correct.",Toast.LENGTH_LONG);
                     toast.show();
+                    wallet.putExtra("key", "" +  fout);
                     startActivity(wallet);
                 }
                 else {
