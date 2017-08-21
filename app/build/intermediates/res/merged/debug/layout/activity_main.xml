@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laptopmaarten.examenmaarten2108.MainActivity">
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+"
+    android:id="@+id/btn1plus"
+        android:layout_marginTop="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn2plus"
+        android:layout_toStartOf="@+id/btn2plus"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/btn1min"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/btn1plus"
+        android:layout_alignLeft="@+id/btn1plus"
+        android:layout_alignStart="@+id/btn1plus" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/btn2plus"
+        android:layout_alignBaseline="@+id/btn1plus"
+        android:layout_alignBottom="@+id/btn1plus"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/btn2min"
+        android:layout_alignBaseline="@+id/btn1min"
+        android:layout_alignBottom="@+id/btn1min"
+        android:layout_alignLeft="@+id/btn2plus"
+        android:layout_alignStart="@+id/btn2plus" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/btn3plus"
+        android:layout_alignBaseline="@+id/btn2plus"
+        android:layout_alignBottom="@+id/btn2plus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/btn3min"
+        android:layout_alignTop="@+id/btn2min"
+        android:layout_alignLeft="@+id/btn3plus"
+        android:layout_alignStart="@+id/btn3plus" />
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/txtgetal1"
+        android:layout_above="@+id/btn2min"
+        android:layout_alignLeft="@+id/btn1min"
+        android:layout_alignStart="@+id/btn1min"
+        android:layout_marginBottom="23dp" />
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/txtgetal2"
+        android:layout_alignBaseline="@+id/txtgetal1"
+        android:layout_alignBottom="@+id/txtgetal1"
+        android:layout_alignLeft="@+id/btn2min"
+        android:layout_alignStart="@+id/btn2min" />
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/txtgetal3"
+        android:layout_alignBaseline="@+id/txtgetal2"
+        android:layout_alignBottom="@+id/txtgetal2"
+        android:layout_alignRight="@+id/btn3min"
+        android:layout_alignEnd="@+id/btn3min" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Access Vault"
+        android:layout_below="@+id/btn1min"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/btncheck"/>
+</RelativeLayout>
