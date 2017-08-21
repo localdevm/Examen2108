@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:3:5-58
 		INJECTED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest
 		INJECTED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\LaptopMaarten\.android\build-cache\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\LaptopMaarten\.android\build-cache\5b69188cd5c39cf5ba9e193bdcd6892f70fbc85f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\LaptopMaarten\.android\build-cache\aaf3f65dce750856cdda16e16b5c831d467d0895\output\AndroidManifest.xml:29:5-20
@@ -51,6 +51,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.laptopmaarten.examenmaarten2108.wallet
+ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml:19:19-41
 uses-sdk
 INJECTED from C:\Users\LaptopMaarten\ExamenMaarten2108\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\LaptopMaarten\.android\build-cache\2ca36cfcc89e03571b8750b18350d38ef2bd27ab\output\AndroidManifest.xml:21:5-23:78
